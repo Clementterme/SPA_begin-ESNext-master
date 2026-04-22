@@ -156,7 +156,3 @@ Prenez connaissance de https://blog.eleven-labs.com/fr/asyncawait/ ou https://de
 2. Refaire toute la section 2 de l'exo 6 (fetch sur API) en utilisant `async`/`await`
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
-
-
-
-# SPA_begin-ESNext-master
