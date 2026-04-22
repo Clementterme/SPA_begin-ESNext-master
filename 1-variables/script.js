@@ -1,6 +1,6 @@
 //1.1 Types simples
 
-var name = 'Jacques';
+const name = 'Jacques';
 var age = 80;
 var useless = 'something';
 
@@ -14,8 +14,8 @@ console.log(name, age, useless);
 //----------------------//
 //1.2 Tableaux
 
-let fruits = ['apple', 'pear', 'cherry'];
-let vegetables = ['potato', 'curlyflower', 'tomato'];
+const fruits = ['apple', 'pear', 'cherry'];
+const vegetables = ['potato', 'curlyflower', 'tomato'];
 
 console.log(fruits, vegetables);
 
