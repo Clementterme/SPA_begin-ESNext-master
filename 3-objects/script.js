@@ -12,6 +12,18 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 };
 
+for (const key in bus) {
+    const value = bus[key];
+
+    if (typeof value === "object") {
+        console.log(key + " : " + JSON.stringify(value));
+    } else {
+        console.log(key + " : " + value);
+    }
+}
+
 //3.2 Object.values
 
-console.log(data);
+for (const perturbation in data) {
+    console.log(perturbation + " : " + data[perturbation].texte);
+}
