@@ -16,3 +16,5 @@ async function main() {
 console.log("= a = BEFORE main call");
 main();
 console.log("= b = AFTER main call");
+
+// "= b = ..." s'affiche au milieu de la fonction main() car le console.log est exécuté directement après la fonction main() sans attendre, alors que la deuxième partie de la fonction main() s'exécute après 100ms.
